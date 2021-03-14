@@ -1,0 +1,19 @@
+name: MCStaff
+main: me.letssee.staffmode.StaffModePlugin
+author: LetsSee
+version: 1.0
+commands:
+  freeze:
+    description: Freezes a player in place.
+  reloadstaffconfig:
+    description: Reloads configuration.
+  staffmode:
+    aliases: [staff, smode]
+    description: Sets you in staff mode.
+  vanish:
+    aliases: [v]
+    description: Hides all players from you
+  report:
+    description: Reports a player
+  reports:
+    description: Opens report menu

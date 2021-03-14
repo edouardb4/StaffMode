@@ -1,0 +1,31 @@
+freeze_item:
+  material: DIAMOND
+  display: 'Freeze Player'
+  lore:
+    - 'Lore'
+  inventory-slot: 0
+speed_boost_item:
+  material: DIAMOND
+  display: 'Speed Boost'
+  lore:
+    - 'Lore'
+  inventory-slot: 1
+view_inventory_item:
+  material: DIAMOND
+  display: 'View Inventory'
+  lore:
+    - 'Lore'
+  inventory-slot: 2
+vanish_item:
+  material: DIAMOND
+  display: 'Vanish'
+  lore:
+    - 'Lore'
+  inventory-slot: 3
+fly_item:
+  material: DIAMOND
+  display: 'Fly'
+  lore:
+    - 'Lore'
+  inventory-slot: 4
+

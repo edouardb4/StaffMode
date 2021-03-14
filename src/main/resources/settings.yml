@@ -1,0 +1,85 @@
+#FREEZE CONFIG SETTINGS
+freeze-command-player-offline:
+  - '&cThat player is offline!'
+freeze-player-message:
+  - '&cYou have been frozen by %player%'
+freeze-player-staff-message:
+  - '&cYou have frozen %player%'
+unfreeze-player-message:
+  - '&cYou have been unfrozen by %player%'
+unfreeze-player-staff-message:
+  - '&cYou have unfrozen %player%'
+no-teleport-frozen-message:
+  - '&cYou can not teleport while frozen!'
+no-chat-frozen-message:
+  - '&cYou can not chat while frozen!'
+no-commands-frozen-message:
+  - '&cYou can not execute commands while frozen!'
+no-damage-player-frozen-message:
+  - '&cYou can not damage players who are frozen!'
+
+invalid-permission-freeze-command:
+  - '&cYou do not have valid permission to execute this command!'
+
+allow-chat-frozen: false
+allow-move-frozen: false
+allow-commands-frozen: false
+
+#STAFF SETTINGS
+staff-mode-enable-message:
+  - '&cYou have enabled staff mode'
+staff-mode-disable-message:
+  - '&cYou have disabled staff mode'
+invalid-permission-staff-mode:
+  - '&cYou do not have valid permission to execute this command!'
+
+teleport-original-location: true #if set to true, will teleport player to original location that they performed the command /staffmode.
+remove-staff-mode-on-death: true #Keep this true
+invincible-staff-mode: true
+creative-staff-mode: false
+move-inventory-staff-mode: false #OPS BYPASS ~ Can staff move items in their inventory / other inventories while in staff mode?
+drop-items-staff-mode: false #OPS BYPASS ~ Can staff drop items while in staff mode?
+harm-players-staff-mode: false #OPS BYPASS ~ Can staff harm players while in staff mode?
+harm-entities-staff-mode: true #OPS BYPASS ~ Can staff harm entities while in staff mode? Excludes players.
+place-blocks-staff-mode: false #OPS BYPASS ~ Can staff place blocks while in staff mode?
+break-blocks-staff-mode: false #OPS BYPASS ~ Can Staff break blocks wghile in staff mode?
+
+staff-mode-prefix: '&e&lStaff Mode [&7%player%&e&l]&f: %message%'
+
+#VANISH SETTINGS
+vanish-enable-message:
+  - '&cYou have enabled vanish'
+vanish-disable-message:
+  - '&cYou have disabled vanish'
+vanish-no-permission-message:
+  - '&cYou do not have valid permission to vanish.'
+vanish-to-other-staff: false #Should staff be able to see other vanished staff members?
+
+enable-vanish-join: false #Should vanish be enabled on join?
+
+#REPORT SETTINGS
+reported-player-message:
+  - '&cThank you for reporting %player%'
+report-player-offline:
+  - '&cThat player is offline!'
+alert-staff-report-message:
+  - '&cNEW REPORT:'
+  - '&b%player%: &f%msg%'
+max-reports-reached-message:
+  - '&cYou have too many outgoing reports!'
+duplicated-report-message:
+  - '&cThat is a duplicate report!'
+no-permission-reports-command:
+  - '&cYou do not have enough permission to execute this command!'
+delete-report-message:
+  - '&cYou deleted %player%''s report! The message was %message%!'
+successful-report-message:
+  - '&cYou reported %player% for %message%!'
+alert-staff-report: false
+max-reports-per-player: 3
+
+#LOGIN MESSAGES
+staff-login-message:
+  - '%player% Logged in'
+staff-logout-message:
+  - '%player% logged out'
